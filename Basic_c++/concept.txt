@@ -1,0 +1,73 @@
+################### :: OOP :: ##################
+Object-Oriented Programming or OOPs refers to languages that use objects in programming. Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism, etc in programming.
+The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
+Class::
+A class is a user-defined data type. It consists of data members and member functions, which can be accessed and used by creating an instance of that class.
+A class is like a blueprint for an object.
+
+
+Object::
+It is a basic unit of Object-Oriented Programming and represents the real-life entities. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+#########################################################
+############## 5 Pillars of OOP ##################
+
+Data Abstraction: 
+
+Data abstraction is one of the most essential and important features of object-oriented programming. Data abstraction refers to providing only essential information about the data to the outside world, hiding the background details or implementation. 
+
+
+Encapsulation :
+
+Encapsulation is like putting all the important information and tools related to a specific thing inside a box (class). The box keeps the data safe and only allows access to it in specific, controlled ways.
+As in encapsulation, the data in a class is hidden from other classes, so it is also known as data-hiding.
+
+
+Inheritance: 
+
+Inheritance is an important pillar of OOP(Object-Oriented Programming). The capability of a class to derive properties and characteristics from another class is called Inheritance. When we write a class, we inherit properties from other classes. So when we create a class, we do not need to write all the properties and functions again and again, as these can be inherited from another class that possesses it. Inheritance allows the user to reuse the code whenever possible and reduce its redundancy
+
+
+Polymorphism: 
+
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form. For example, A person at the same time can have different characteristics. Like a man at the same time is a father, a husband, an employee. So the same person posses different behavior in different situations. This is called polymorphism.
+
+
+Dynamic binding :
+
+Dynamic binding means the code to run for a function call is decided while the program is running, not before. It allows objects of a subclass to be used wherever a parent class is expected, enabling polymorphism. This means a derived class can override a method, and the correct version will be used at runtime.
+
+###############################################################
+
+Message Passing:
+
+It is a form of communication used in object-oriented programming as well as parallel programming. Objects communicate with one another by sending and receiving information to each other. A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function, and the information to be sent.
+
+
+
+Why do we need object-oriented programming
+
+To make the development and maintenance of projects more effortless. 
+To provide the feature of data hiding that is good for security concerns.  
+We can solve real-world problems if we are using object-oriented programming. 
+It ensures code reusability. 
+It lets us write generic code: which will work with a range of data, so we don’t have to write basic stuff over and over again.
+
+
+
+########################
+#Access Modifiers
+
+1.private - data and methods accessible inside class
+2.public - data and methods accessible to everyone
+3.protected - data and methods accessible inside class  and to its derived class
+
+
+
+/*
+C++ is a programming language that is the foundation 
+of many modern technologies like game engines, web browsers,
+ operating systems financial systems, etc. 
+
+C++ is faster than Python and Java. 
+*/
