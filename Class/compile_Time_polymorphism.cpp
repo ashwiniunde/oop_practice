@@ -1,3 +1,5 @@
+//Method Overloading :: It means defining multiple functions with the same name but with different parameters
+
 #include<iostream>
 using namespace std;
 
