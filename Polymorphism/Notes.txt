@@ -1,0 +1,16 @@
+Polymorphism in C++  ::
+The word polymorphism means having many forms.
+
+Types of Polymorphism ::
+
+1. Compile-time Polymorphism
+
+    A. Function Overloading => two or more functions can have the  same name
+                             but behave differently for different parameters
+
+    B. Operator Overloading => ability to provide the operators with a special
+                             meaning for particular data type
+
+2. Runtime Polymorphism 
+The function call in runtime polymorphism is resolved at 
+runtime in contrast with compile time polymorphism.
