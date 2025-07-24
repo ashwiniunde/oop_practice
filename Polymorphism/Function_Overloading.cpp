@@ -1,5 +1,6 @@
 // Function Overloading in Polymorphism 
 // same function name with different parameter
+// In this case only changing return type(void and int) will not work
 #include<iostream>
 using namespace std;
 class A
