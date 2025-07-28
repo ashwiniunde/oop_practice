@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+class Fly {
+public:
+    void canFly() {
+        cout << "Can fly !!" << endl;
+    }
+};
+
+class Swim {
+public:
+    void canSwim() {
+        cout << "Can swim !!" << endl;
+    }
+};
+
+class Duck : public Fly, public Swim {
+};
+
+int main() {
+    Duck d;
+    d.canFly();
+    d.canSwim();
+    return 0;
+}
